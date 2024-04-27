@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #444;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 21px;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+button {
+    width: 120px;
+    height: auto;
+    padding: 6px 8px;
+    border-radius: 5px;
+}

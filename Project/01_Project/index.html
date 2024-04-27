@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        body {
+            background-color: #313133;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #rangeDisplay {
+            font-size: 60px;
+            color: #ffff;
+            padding: 6px 7px;
+            font-weight: bolder;
+        }
+
+        #slider {
+            width: 160px;
+            height: 60px;
+            padding: 8px;
+        }
+    </style>
+
+    <body>
+        <div id="container">
+            <main>
+                <label for="slider" id="rangeDisplay">slider:</label>
+                <input type="range" max="20" min="0" value="5" id="slider" />
+            </main>
+        </div>
+
+    </body>
+    <script src="index.js"></script>
+
+
+</html>
